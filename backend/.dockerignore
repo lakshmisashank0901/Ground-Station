@@ -1,0 +1,11 @@
+.venv
+__pycache__
+*.pyc
+*.db
+*.db-*
+.pytest_cache
+datasets/raw/*
+datasets/cleaned/*
+datasets/processed/*
+models/*
+tests

@@ -1,0 +1,3 @@
+# Heavy training-only dependency: the LSTM is trained with Keras/TensorFlow and exported
+# to plain numpy weights, so the API server can run inference without TensorFlow.
+tensorflow==2.18.0
